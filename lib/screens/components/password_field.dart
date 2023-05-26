@@ -80,7 +80,7 @@ class _PasswordFieldState extends State<PasswordField> with RestorationMixin {
           icon: Icon(
             _obscureText.value ? Icons.visibility : Icons.visibility_off,
             semanticLabel:
-                _obscureText.value ? "show password" : "Hide password",
+                _obscureText.value ? "Show password" : "Hide password",
           ),
         ),
       ),
