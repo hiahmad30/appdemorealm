@@ -20,7 +20,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Realm Simple Demo',
+      title: 'Flutter Realm Simple',
       initialRoute: '/first',
       onGenerateRoute: RouterManager.generateRoute,
       builder: (
